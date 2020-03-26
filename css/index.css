@@ -129,9 +129,26 @@ select {
   margin-top: 50rem;
   margin-left: 10rem;
   border-right: 1px solid orange;
-  padding-top: 15rem;
+  padding-top: 25rem;
   text-transform: uppercase;
   transform: rotate(180deg);
+}
+.outer-bound {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.outer-bound .jumbotron:nth-child(1) {
+  background-image: url("../images/side1.jpg");
+}
+.outer-bound .jumbotron:nth-child(2) {
+  background-image: url("../images/side2.jpg");
+}
+@media (max-width: 800px) {
+  .outer-bound {
+    margin: 0 auto;
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
 }
 html {
   font-size: 62.5%;

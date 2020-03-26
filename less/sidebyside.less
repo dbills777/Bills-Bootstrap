@@ -1,0 +1,17 @@
+.outer-bound{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .jumbotron:nth-child(1){
+        background-image: url("../images/side1.jpg");
+    }
+    .jumbotron:nth-child(2){
+        background-image: url("../images/side2.jpg");
+    }
+}
+@media (max-width: 800px) {
+    .outer-bound {
+        margin: 0 auto;
+      max-width: 100%;
+      grid-template-columns: 1fr;
+    }
+  }
