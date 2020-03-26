@@ -65,12 +65,16 @@ select {
   margin-top: 2rem;
 }
 .my-background > div {
-  background-color: pink;
   margin: 1rem;
   border: 1px solid white;
 }
-.my-background div {
+.my-background div:nth-child(n) {
   margin: 1rem;
   border: 1px solid black;
+  background-color: pink;
+  text-align: center;
+}
+.container-fluid {
+  border: 1px solid ;
 }
 /*# sourceMappingURL=index.css.map */
