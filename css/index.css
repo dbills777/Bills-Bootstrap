@@ -1,3 +1,11 @@
+.navbarBrand {
+  font-size: 4rem;
+  margin-left: 4rem;
+}
+.navLinks {
+  font-family: 'Sen', sans-serif;
+  font-size: 3rem;
+}
 /* Box sizing rules */
 *,
 *::before,
@@ -59,22 +67,31 @@ select {
   font: inherit;
 }
 /* Remove all animations and transitions for people that prefer not to see them */
-.outside {
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 2rem;
+.collapse {
+  justify-content: flex-end;
+  font-size: 2rem;
 }
-.my-background > div {
-  margin: 1rem;
-  border: 1px solid white;
+.navbar-brand {
+  font-size: 4rem;
+  margin-left: 4rem;
 }
-.my-background div:nth-child(n) {
-  margin: 1rem;
-  border: 1px solid black;
-  background-color: pink;
-  text-align: center;
+.nav-item {
+  padding: 4rem;
+  font-family: 'Sen', sans-serif;
+  font-size: 3rem;
 }
-.container-fluid {
-  border: 1px solid ;
+.active .nav-link {
+  border-bottom: 2px solid orange;
+  border-bottom-width: thin;
+  padding-bottom: 0;
+}
+.dropdown a {
+  font-size: 3rem;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=index.css.map */
