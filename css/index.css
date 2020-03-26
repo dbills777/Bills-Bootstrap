@@ -1,10 +1,10 @@
 .navbarBrand {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-left: 4rem;
 }
 .navLinks {
   font-family: 'Sen', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 /* Box sizing rules */
 *,
@@ -72,13 +72,13 @@ select {
   font-size: 2rem;
 }
 .navbar-brand {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-left: 4rem;
 }
 .nav-item {
-  padding: 4rem;
+  padding: 2rem;
   font-family: 'Sen', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .active .nav-link {
   border-bottom: 2px solid orange;
@@ -86,7 +86,7 @@ select {
   padding-bottom: 0;
 }
 .dropdown a {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .jumbotron {
   background-image: url("../images/heroImage.jpg");
@@ -126,7 +126,7 @@ select {
   color: white;
   writing-mode: vertical-lr;
   text-orientation: mixed;
-  margin-top: 50rem;
+  margin-top: 10%;
   margin-left: 10rem;
   border-right: 1px solid orange;
   padding-top: 25rem;
