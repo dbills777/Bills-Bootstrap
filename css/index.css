@@ -183,6 +183,17 @@ select {
   display: inline-block;
   background-color: rgba(69, 69, 69, 0.667);
 }
+.message {
+  display: flex;
+  justify-content: center;
+  min-height: 30rem;
+  flex-direction: column;
+  text-align: center;
+  background-color: lightblue;
+}
+.jumbo2 {
+  background-image: url("/images/side2.jpg");
+}
 html {
   font-size: 62.5%;
 }
