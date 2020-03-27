@@ -133,47 +133,55 @@ select {
   text-transform: uppercase;
   transform: rotate(180deg);
 }
-.outer-bound {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.outer-bound .jumbotron:nth-child(1) {
-  background-image: url("../images/side1.jpg");
-}
-.outer-bound .jumbotron:nth-child(2) {
+.rightside {
+  min-height: 1000px;
   background-image: url("../images/side2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
 }
-.outer-bound h1 {
-  color: white;
-  font-size: 4rem;
-  text-transform: uppercase;
+.leftside {
+  min-height: 1000px;
+  background-image: url("../images/side1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
 }
-.outer-bound div .container-fluid {
-  display: grid;
-  height: 100%;
-  align-items: end;
-  margin: 0;
-  align-content: end;
-  text-align: center;
-}
-.outer-bound div .container-fluid ion-icon {
-  font-size: 2rem;
-  color: white;
-}
-.outer-bound div .container-fluid button {
+.leftside button {
   justify-self: center;
   color: orange;
-  width: 10rem;
   font-size: 2rem;
   padding-right: 0;
   margin-right: 0;
+  background-color: rgba(69, 69, 69, 0.667);
 }
-@media (max-width: 800px) {
-  .outer-bound {
-    margin: 0 auto;
-    max-width: 100%;
-    grid-template-columns: 1fr;
-  }
+.rightside button {
+  justify-self: center;
+  color: orange;
+  font-size: 2rem;
+  padding-right: 0;
+  margin-right: 0;
+  background-color: rgba(69, 69, 69, 0.667);
+}
+.leftside div {
+  color: #f5f5f5;
+  align-self: flex-end;
+  text-align: center;
+}
+.leftside div h1 {
+  display: inline-block;
+  background-color: rgba(69, 69, 69, 0.667);
+}
+.rightside div {
+  color: #f5f5f5;
+  align-self: flex-end;
+  text-align: center;
+}
+.rightside div h1 {
+  display: inline-block;
+  background-color: rgba(69, 69, 69, 0.667);
 }
 html {
   font-size: 62.5%;
