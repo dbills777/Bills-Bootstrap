@@ -53,7 +53,7 @@
 .message{
     display: flex;
     justify-content: center;
-    min-height: 30rem;
+    min-height: 50rem;
     flex-direction: column;
     text-align: center;
     background-color: lightblue;
@@ -68,4 +68,37 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+}
+.story{
+    display: flex;
+    align-content: center;
+}
+.adventure-story{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin: 6rem;
+    h1{
+        font-weight: bold;
+        font-size: 4rem;
+        letter-spacing: .5rem;
+        padding-bottom: 2rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    button{
+
+        width: 12rem;
+        font-size: 2rem;
+        padding: 0;
+        margin-top: 2rem;
+        text-align: left;
+        color: orange;
+        border-bottom: 1px solid orange;
+    }
+}
+.inner-container{
+    border: 1px solid purple;
+    height: 20rem;
 }
