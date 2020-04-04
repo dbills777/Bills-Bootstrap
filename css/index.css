@@ -183,14 +183,6 @@ select {
   display: inline-block;
   background-color: rgba(69, 69, 69, 0.667);
 }
-.message {
-  display: flex;
-  justify-content: center;
-  min-height: 50rem;
-  flex-direction: column;
-  text-align: center;
-  background-color: lightblue;
-}
 .jumbo2 {
   background-image: url("/images/side2.jpg");
 }
@@ -230,9 +222,58 @@ select {
   color: orange;
   border-bottom: 1px solid orange;
 }
+.message {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  min-height: 40rem;
+  flex-direction: column;
+  text-align: center;
+  background-color: lightblue;
+}
 .inner-container {
-  border: 1px solid purple;
-  height: 20rem;
+  top: 20rem;
+  margin: auto;
+  width: 75%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.inner-container img {
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+  border-radius: 5%;
+}
+.newsletter {
+  margin-top: 25rem;
+  background-color: #FFAC24;
+}
+.newsletter h1 {
+  color: white;
+}
+.newsletter .heading {
+  align-self: center;
+}
+.news-container {
+  justify-content: space-between;
+  margin: 2rem;
+}
+footer {
+  padding: 3rem;
+}
+footer div {
+  padding: 1rem;
+}
+footer div.container > :nth-child(1) {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+footer div.container > :last-child {
+  padding-bottom: 5rem;
+}
+.footer-end {
+  border-top: 1px solid #333;
+  font-weight: bold;
+  font-size: 3rem;
 }
 html {
   font-size: 62.5%;
