@@ -2,10 +2,13 @@
 
 You are to demonstrate that you know how to use basic HTML and CSS by building a responsive single page marketing webpage for one of these three companies:
 
-_Road Warriors_ - Bike shop
+_Road Warriors_ - Bike shop (Chose for this assignment) 
+# Click Here [Link to My Project](https://bills2780bikes.netlify.com/)
+# The URL you used for layout is: [Rivian](https://rivian.com)
 
-# Cozy Corner_ - Book store (Chose for this assignment) 
-# Click Here [Link to My Project](https://bills2780books.netlify.com/)
+
+
+_Cozy Corner_ - Book store 
 
 
 
@@ -15,29 +18,28 @@ _Calm Mind_ - Spa
 You will use one of these companies as a guide for your content.  For design, you will need to find a website that you admire as a guide for layout.  You will then combine the company content and the layout of the website you admire to create a single page marketing site.
 
 
-## Preprocessed CSS Requirements
+## BootStrap CSS Requirements
 
 These project requirements directly impact the grading rubric, so read them carefully:
 
-- [x] Create a home page laid out and themed based on your choices from the above steps
+- [x] Proper Use of Bootstrap's CSS Grid System
 
-- [x] Create a secondary page of your choice 
+- [x] CSS Component I (container, container-fluid, jubotron)
 
-- [x] Create a navigation that links between the home and secondary pages.
+- [x] CSS Component II (container, container-fluid, jumbotron)
 
-- [x] Create buttons on each page with a call to action for the user.  For example: Sign Up, Buy Now, etc.
+- [x] JS Component I (Navigation with dropdown and resizing)
 
-- [x] Utilize imports so that only one file is compiled from at least 4 imported files
+- [x] JS Component II (carousel)
 
-- [x] Utilize variables for a font stack and colors
+- [x] Layout matches the website picked
 
-- [x] Nest your selectors so that they match the HTML structure
-  
-- [x] Create and use 2 unique mixins of your choice
+- [x] Home Page with navigation
 
-- [x] Create a mixin that creates a custom button using parameters.  Apply these styles on the buttons you created in HTML for the home and services page
+- [x] Secondary page with navigation and carousel for bike display
 
-- [x] Create a mobile version of the home and secondary pages using escaped variables.  You can simply stack your content on top of itself, nothing complex is expected
+- [x] contact page with a form element designed as a careers page.
+
  
 
 ## Project Resources
@@ -52,7 +54,7 @@ Images and content can be frustrating to find and use in any project.  To allev
 
 We will be using git throughout the semester.  Each project much be forked and cloned to get started.
 
-- [x] Fork and clone this repo: https://github.com/BigKnell/marketing-website
+- [x] Fork and clone this repo: https://github.com/BigKnell/DGM-2780-Bootstrap-Starter
 
 - [x] You have been provided a [bare bones website starter folder (website folder)](website). Use index.html as a starting point for your HTML and index.css for your CSS
 
