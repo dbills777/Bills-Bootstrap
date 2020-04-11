@@ -253,7 +253,7 @@ select {
   min-height: 40rem;
   flex-direction: column;
   text-align: center;
-  background-color: lightblue;
+  background-color: #d7d7d7;
 }
 .inner-container {
   top: 20rem;
@@ -299,10 +299,15 @@ footer div.container > :last-child {
   font-weight: bold;
   font-size: 3rem;
 }
+.career-message {
+  text-align: center;
+}
 .form-background {
   margin-top: 3rem;
-  padding-top: 3rem 0 3rem 0;
   background-color: #e3e2e0;
+}
+.career-form {
+  padding: 4rem;
 }
 html {
   font-size: 62.5%;
