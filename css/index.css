@@ -76,27 +76,6 @@ select {
   font: inherit;
 }
 /* Remove all animations and transitions for people that prefer not to see them */
-.collapse {
-  justify-content: flex-end;
-  font-size: 2rem;
-}
-.navbar-brand {
-  font-size: 3rem;
-  margin-left: 4rem;
-}
-.nav-item {
-  padding: 2rem;
-  font-family: 'Sen', sans-serif;
-  font-size: 2rem;
-}
-.active .nav-link {
-  border-bottom: 2px solid orange;
-  border-bottom-width: thin;
-  padding-bottom: 0;
-}
-.dropdown a {
-  font-size: 2rem;
-}
 .jumbotron {
   background-image: url("../images/heroImage.jpg");
   background-repeat: no-repeat;
@@ -146,11 +125,11 @@ select {
   background-image: url('../images/secondary-hero.jpg');
   background-size: cover;
 }
-.rightside-secondary {
-  background-image: url(../images/rightside-secondary.jpg);
-  background-size: contain;
+.work-jumbo {
+  margin: auto;
+  background-image: url('../images/Work.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  min-width: 30rem;
 }
 .carousel {
   margin: auto;
@@ -308,6 +287,27 @@ footer div.container > :last-child {
 }
 .career-form {
   padding: 4rem;
+}
+.collapse {
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+.navbar-brand {
+  font-size: 3rem;
+  margin-left: 4rem;
+}
+.nav-item {
+  padding: 2rem;
+  font-family: 'Sen', sans-serif;
+  font-size: 2rem;
+}
+.active .nav-link {
+  border-bottom: 2px solid orange;
+  border-bottom-width: thin;
+  padding-bottom: 0;
+}
+.dropdown a {
+  font-size: 2rem;
 }
 html {
   font-size: 62.5%;
