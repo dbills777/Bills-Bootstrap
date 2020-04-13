@@ -1,4 +1,4 @@
-# Preprocessed css(less)
+# BootStrap CSS
 
 You are to demonstrate that you know how to use basic HTML and CSS by building a responsive single page marketing webpage for one of these three companies:
 
